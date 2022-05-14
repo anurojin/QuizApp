@@ -1,0 +1,25 @@
+.nums {
+  float: left;
+  width: 1000px;
+  margin: 3px;
+  padding: 3px;
+  /* /border: 1px #999999; */
+  border-style: solid;
+  border-color: black;
+}
+
+.pics,
+.nums {
+  clear: both;
+  text-align: center;
+  padding: 5px;
+}
+div[id^="place"] {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 3px;
+  padding: 3px;
+  border: 1px dotted #333333;
+  background-color: #ffff99;
+}

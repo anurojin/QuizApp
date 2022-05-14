@@ -1,0 +1,103 @@
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  color: blue;
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.close {
+  position: relative;
+  margin-left: 80%;
+  margin-bottom: 10%;
+}
+.pics {
+  width: 60%;
+}
+@media screen and (max-width: 1024px) {
+  .close {
+    font-size: 15px;
+    margin-left: 60%;
+  }
+  .pics {
+    width: 80vw;
+  }
+  .nums {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 820px) {
+  .close {
+    font-size: 15px;
+    margin-left: 70%;
+  }
+  .pics {
+    width: 80vw;
+  }
+  .nums {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 414px) {
+  .close {
+    font-size: 15px;
+    margin-left: 50%;
+  }
+  .pics {
+    width: 80vw;
+  }
+  .nums {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 412px) {
+  .close {
+    font-size: 15px;
+    margin-left: 50%;
+  }
+  .pics {
+    width: 70vw;
+  }
+  .nums {
+    width: 70vw;
+  }
+}
+@media screen and (max-width: 375px) {
+  .close {
+    font-size: 15px;
+    margin-left: 50%;
+  }
+  .pics {
+    width: 60vw;
+  }
+  .nums {
+    width: 75vw;
+  }
+}
+@media screen and (max-width: 280px) {
+  .close {
+    font-size: 15px;
+    margin-left: 50%;
+  }
+  .pics {
+    width: 80vw;
+  }
+  .nums {
+    width: 80vw;
+  }
+}

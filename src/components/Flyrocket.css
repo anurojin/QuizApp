@@ -1,0 +1,135 @@
+.Rocketmodal {
+  position: fixed;
+  /* overflow-y: visible !important; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  color: blue;
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 40px;
+}
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.close {
+  position: relative;
+  margin-left: 80%;
+  margin-bottom: 5%;
+}
+.rocket {
+  margin-left: 10px;
+  padding: 60px;
+  animation: fly;
+  animation-duration: 4s;
+  position: relative;
+  animation-iteration-count: infinite;
+}
+.land{
+  width:280px;
+  height:160px;
+}
+@keyframes fly {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 0px;
+    top: -200px;
+  }
+  50% {
+    left: 0px;
+    top: -400px;
+  }
+  75% {
+    left: 0px;
+    top: -400px;
+  }
+}
+.cloud {
+  margin-left: 10px;
+  padding: 60px;
+  animation: move;
+  animation-duration: 4s;
+  position: relative;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    right: 10px;
+    top: 0px;
+  }
+  50% {
+    left: 10px;
+    top: 0px;
+  }
+  75% {
+    left: 10px;
+    top: 0px;
+  }
+  100% {
+    right: 10px;
+    top: 0px;
+  }
+}
+@media screen and (max-width: 412px) {
+  .land {
+    width: 300px;
+    
+  }
+
+  .close {
+
+    margin-left: 60%;
+    margin-bottom: 1%;
+  }}
+  @media screen and (max-width: 390px) {
+    .land {
+      width: 300px;
+      
+    }
+  
+    .close {
+  
+      margin-left: 60%;
+     
+    }
+  
+  }
+@media screen and (max-width: 375px) {
+  .land {
+    width: 300px;
+    
+  }
+  .close {
+    
+    margin-left: 60%;
+  
+  }
+  
+}
+@media screen and (max-width: 280px){
+.land {
+  width: 300px;
+  height: 100px;
+}
+.close {
+
+  margin-left: 60%;
+
+}
+}

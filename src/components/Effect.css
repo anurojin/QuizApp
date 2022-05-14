@@ -1,0 +1,53 @@
+.right {
+  color: green;
+
+  justify-content: center;
+  position: relative;
+  animation-name: move;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+@keyframes move {
+  0% {
+    /* background-color: green; */
+    left: 900px;
+    top: -350px;
+  }
+  25% {
+    left: 1000px;
+    top: -300px;
+  }
+  50% {
+    left: 1000px;
+    top: -300px;
+  }
+  75% {
+    left: 1000px;
+    top: -300px;
+  }
+  100% {
+    left: 1000px;
+    top: -350px;
+  }
+}
+
+.wr {
+  /* background-image: url("C:\Users\HP\Desktop\go-workspace\quiz-app\src\img\wrong.jpg"); */
+  color: red;
+  justify-content: center;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
